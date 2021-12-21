@@ -3,6 +3,7 @@ import './Hangman.css';
 import { randomWord } from './Words.js';
 
 
+
 class Hangman extends Component {
 
   static defaultProps = {
@@ -54,6 +55,7 @@ class Hangman extends Component {
 
   resetButton = () => {
     this.setState({
+      skor:0,
       salah: 0,
       guessed: new Set([]),
       jawaban: randomWord()
