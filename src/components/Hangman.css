@@ -1,0 +1,24 @@
+.Hangman {
+  color: aliceblue;
+  width: 80%;
+  margin-top: 50px;
+}
+
+h1{
+  font-family:'boogaloo';
+  font-size: 53px;
+}
+
+p{
+  font-size: 28px;
+}
+
+.kesalahan{
+  font-size: 25px;
+}
+
+.jawaban{
+  font-size: 40px;
+  letter-spacing: 7px;
+}
+
