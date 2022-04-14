@@ -3,13 +3,15 @@ var programming_languages = [
 	"pascal",
 	"javascript",
 	"java",
-	"html",
-	"css",
-    "c",
+        "c",
+	"fortran",
+	"typescript",
+	"swift",
+	"go",
 	"csharp",
 	"kotlin",
 	"php",
-    "ruby"
+        "ruby"
 ]
 
 function randomWord() {
